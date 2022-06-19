@@ -1,0 +1,50 @@
+#div-one {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+#div-two:hover {
+  background-color: #FF00FF;
+}
+
+input:focus {
+  border-color: blueviolet;
+  border-width: 2px;
+}
+
+/* unvisited link */
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+
+.div-two:nth-of-type(odd) {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.div-two:nth-of-type(even) {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+span > p {
+  background-color: yellow;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src='main.js'></script>
+
+  <style>
+
+    a:link {
+      color: violet;
+    }
+
+    a:hover {
+      color: green;
+    }
+
+    a:active {
+      color: indianred;
+    }
+
+    /* a:visited {
+      color: yellow;
+    } */
+
+    .div-one {
+      height: 100px;
+      width: 100px;
+      background-color: teal;
+      transition: all 2s ease;
+    }
+
+    .div-one:hover {
+      background-color: thistle;
+      width: 200px;
+    }
+
+    .div-class {
+      height: 100px;
+      width: 100px;
+      
+    }
+
+    .div-class:nth-of-type(odd):hover {
+      background-color: violet;
+    }
+
+    .div-class:nth-of-type(even) {
+      background-color: yellow;
+    }
+
+
+    .div-class:hover {
+      background-color: yellowgreen;
+    }
+
+    input {
+      border: none;
+      border-bottom: 2px solid #000;
+    }
+
+
+    input:focus {
+      outline: none;
+    }
+
+    div > h1,p {
+      color: green;
+    }
+
+    div > div > h3 {
+      color: blue;
+    }
+    
+
+    .common-style {
+      width: 100px;
+      height: 100px;
+      /* margin: 16px; Set all sides margin */
+      /* Shorthand Values */
+      margin: 16px 8px; /* Set Vertical and Horizontal Margins */
+      margin: 16px 8px 32px; /* top left/right bottom */ 
+      margin: 10px 20px 30px 40px; /* top right bottom left */ 
+      border: 10px dotted red;
+      border-right-style: dashed;
+      border-left-color: violet;
+      display: inline-block;
+      padding: 16px;
+    }
+
+    .div-three {
+      background-color: green;
+    }
+    
+    .div-four {
+      background-color: firebrick;
+    }
+
+  </style>
+
+</head>
+<body>
+  <!-- <h1>Pseudo-classes</h1>
+
+  <a href="https://google.com" target="_blank" >Click Here</a>
+
+  <div class="div-one" ></div> -->
+
+  
+
+  <!-- <div>
+    <div class="div-class" ></div>
+    <div class="div-class" ></div>
+    <div class="div-class" ></div>
+    <div class="div-class" ></div>
+  </div> -->
+  
+
+  <!-- <input placeholder="Enter Something" />
+
+  
+   <div>
+     <h1>H1 Inside DIV</h1>
+     <p>H2 Inside DIV</p>
+     <span>H3 Inside DIV</span>
+     <div>
+       <h3>H3 inside div inside div</h3>
+     </div>
+   </div>
+
+   <h1>H1 Outside Div</h1> -->
+
+   <h1>Box Model</h1>
+
+   <div class="div-three common-style" ></div>
+   <div class="div-four common-style" ></div>
+
+  
+
+
+
+</body>
+</html>
