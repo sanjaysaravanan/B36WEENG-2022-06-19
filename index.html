@@ -99,6 +99,16 @@
       background-color: firebrick;
     }
 
+    .parent {
+      border: 2px solid;
+      padding: 16px;
+    }
+
+    .child {
+      border: inherit;
+      padding: inherit;
+    }
+
   </style>
 
 </head>
@@ -133,13 +143,20 @@
 
    <h1>H1 Outside Div</h1> -->
 
-   <h1>Box Model</h1>
+   <!-- <h1>Box Model</h1>
 
    <div class="div-three common-style" ></div>
-   <div class="div-four common-style" ></div>
+   <div class="div-four common-style" ></div> -->
 
-  
+  <div class="parent" >
+    Some Text
+    <div class="child" >
+      Some More Text in Child
+    </div>
+  </div>
 
+  <div style="height: 100px; width: 100px; background: linear-gradient(to left , red, green, yellow, orange);" ></div>
+  <div style="height: 100px; width: 100px; background: radial-gradient(red, green, yellow, orange);" ></div>
 
 
 </body>

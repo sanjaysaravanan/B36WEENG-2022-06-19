@@ -19,52 +19,16 @@ Topics:
         tracking of files/changes using commit id
 
         Branches in Git
-            main/master
-              |--> Staging
-                    |--> QA
-                          |---> feature
-                          |---> bugfix
+            main/master <--
+              |--> Staging  <--
+                    |--> develop/QA      <--
+                          |---> feature/<name-of-the-feature>
+                          |---> bugfix/<name-of-bug>
 
       Deploy task 7 in netlify
 
-
-
-
-
-
-
-
-
-
-    position property: fixed,static,relative,absolute,sticky
-      Position ---> 
-        CSS Property which lets us to position a particuler element with the 
-        doucment flow or independent of the document flow with help of top, left, right, bottom
-
-        > static  ---> default position
-          1. does not affect the normal flow of the document
-          2. space is created 
-          3. Also, is not affect by the top, left, right, bottom
-
-        > relative relative to its parent
-          1. Affects the normal flow of the document
-          2. Space created
-          3. Affected by top, left, right, bottom
-
-        > absolute
-          1. Removed from the normal, placed accroding to the closest positioned
-          2. No Space created
-          3. Affected by top, left, right, bottom
-
-        > fixed
-          1. Removed from the normal flow and placed relative the initial containing block
-          2. No space created
-          3. Not Affected by scrolling
-
-        > sticky
-          1. Created alogn with normal flow of the document
-          2. SPace created
-          3. is not affected by scrolling after reaching point of the top, left ...
-
-    parent inherit 
+    parent inherit
+    
     gradient
+
+    
