@@ -9,8 +9,46 @@ Topics:
 
     Intro to pseudo-classes (link,visited,hover,active, first/last child, nth, nth-of, focus)
 
+      a tag:
+        visited --> Clicked and visited the link
+        hover --> placing cursor over a tag/element
+        active --> Click and Holding it
+      
+      first/last child -->
+        syntax in css:
 
-    box model: padding,margin,border
+          .div-color:first-child {
+
+          }
+
+          .div-color:last-child {
+
+          }
+
+          nth child:
+            fifth child
+            .div-color:nth-child(5) {
+
+            }
+          
+          type even:
+            .div-color:nth-of-type(even) {
+
+            }
+      
+      input:focus {
+        // styling
+      }
+
+    box model: 
+
+      wrapping the contents of an element with padding, border, margin
+
+      inside to outside 
+        content ---> padding ---> border ---> margin 
+
+      outside to inside 
+        margin ---> border ---> padding ---> content
 
     Review the Task 7
       Git:
@@ -19,16 +57,42 @@ Topics:
         tracking of files/changes using commit id
 
         Branches in Git
-            main/master <--
-              |--> Staging  <--
-                    |--> develop/QA      <--
-                          |---> feature/<name-of-the-feature>
-                          |---> bugfix/<name-of-bug>
+          main/master  <-- ( very stable )
+            |--> Staging  <-- ( stable )
+                  |--> develop/QA  <-- ( accepts the codes from development )
+                        |---> feature/<name-of-the-feature>
+                        |---> bugfix/<name-of-bug>
+
+    GIT is tool used to track a source code.
+
+      git has two store location remote & local
+
+      local You do development and push it to remote ( iin turn the remote helps us to collaborate with other developers )
+
+      1. branching strategy
+      2. staging ( 
+        tracked ---> M -> modified, R -> renamed,  Local git knows it, D -> Deleted File
+        untracked ---> these files are only known to Your local system ( even local git doesn't know it )
+      )
+
+       staged ---> A --> added 
 
       Deploy task 7 in netlify
 
     parent inherit
+
+      property value inherition from parent property ( css )
+
+      .parent {
+        border: 1px dashed #f00;
+      }
+
+      .child {
+        border: inherit; // this will inherit the border prop value from parent
+      }
     
-    gradient
+    gradient:
+
+    
 
     
